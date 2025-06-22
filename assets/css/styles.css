@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'MedievalSharp', cursive;
+    --cor-primaria: #3e1f0d;
+    --cor-destaque: #3f1e0f;
+    --cor-fundo: #2c1507;
+    --cor-texto-claro: #fff;
+    --cor-texto: #3f1e0f;
+}
+
+h1, p {
+    color: var(--cor-texto-claro);
+    text-shadow: 4px 4px 4px var(--cor-fundo);
+}
+
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-image: url('../images/background-cavaleiro-epico.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+#heroForm {
+    background-image: url('../images/pergaminho.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    aspect-ratio: 3/4;
+    width: 90vw;
+    max-width: 400px;
+    min-width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 50px;
+    box-sizing: border-box;
+}
+
+
+#heroForm input[type="text"],
+#heroForm input[type="number"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    color:var(--cor-texto);
+}
+
+#heroForm button[type="submit"] {
+    background-color: var(--cor-primaria);
+    color: var(--cor-texto-claro);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+#heroForm button[type="submit"]:hover {
+    background-color: var(--cor-destaque);
+}
+
+#heroForm label {
+    display: block;
+    margin: 10px 0 5px;
+    font-size: 18px;
+    color: var(--cor-texto);
+}
+
+#result {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 90vw;
+    max-width: 400px;
+    min-width: 250px;
+    color: var(--cor-texto);
+}
