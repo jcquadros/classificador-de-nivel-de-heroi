@@ -28,7 +28,7 @@ O usuário deve preencher o nome do herói e a quantidade de experiência (XP) n
 
 Você pode acessar o projeto diretamente pelo GitHub Pages:
 
-[Visualizar no GitHub Pages](https://<seu-usuario>.github.io/classificador-de-nivel-de-heroi/)
+[Visualizar no GitHub Pages](https://jcquadros.github.io/classificador-de-nivel-de-heroi/)
 
 ## Como executar
 
